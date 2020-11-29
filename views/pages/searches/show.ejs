@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/modules.css">
+    <link rel="stylesheet" href="styles/reset.css">
+</head>
+<body>
+    <% book.forEach(value=>{ %>
+        <div class='searches'>
+            <img src="<%= value.image %>" alt="">
+            <h2><%= value.title %></h2>
+            <h3><%= value.author %></h3>
+            <p><%= value.description %></p>
+        </div>
+    <% }) %>
+</body>
+</html>

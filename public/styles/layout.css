@@ -1,0 +1,89 @@
+header {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.hamburger {
+    width: 5%;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    /* background-color: #111; */
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 25px;
+}
+
+h1.title {
+    width: 95%;
+    height: 70px;
+    color: white;
+    line-height: 70px;
+    font-size: 30px;
+    padding-left: 2%;
+    font-family: ‘Roboto’, sans-serif;
+}
+
+.list {
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+
+.section {
+    width: 100%;
+    background: #4A4A4A;
+    padding: 7px 0;
+    text-align: center;
+    height: 60px;
+    line-height: 50px;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=text],
+button {
+    width: 80%;
+    margin: 5px 10%;
+    height: 40px;
+}
+
+input[type=text]{
+    margin-bottom: 25px;
+}
+
+button{
+    background-color: #000;
+    color: #fff;
+}
+
+label{
+    background-color: #fff;
+    text-align: left;
+    width: 80%;
+    height: 40px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    padding-top: 7px;
+    padding-left: 10px;
+    
+}
+
+input[type=radio]{
+   margin-left: 75px;
+}
+

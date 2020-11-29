@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+    font-family: ‘Open Sans’, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	
+}
+li {
+	list-style-type: none;
+}
+
