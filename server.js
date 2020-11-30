@@ -55,11 +55,13 @@ app.get('/searches/new', (request, response)=>{
     response.render('pages/searches/new');
 });
 
+
 app.post('/searches', (request, response)=>{
     let query_search = request.body.searchEngine;
     let category = request.body.category;
-    
-    let url=`https://www.googleapis.com/books/v1/volumes?q=${query_search}+${category}:${query_search}&startIndex=0&maxResults=10`;
+
+    let url=`https://www.googleapis.com/books/v1/volumes?q=${query_search}+${category}&startIndex=0&maxResults=10`;
+
 
     superagent.get(url)
     .then(result=>{
@@ -97,3 +99,4 @@ client.connect()
     });
 
 })
+

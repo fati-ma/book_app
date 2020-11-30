@@ -41,6 +41,7 @@ h1.title {
     top: 90px;
     background-color: rgba(0, 0, 0, 0.7);
     left: 0;
+
 }
 
 .section {
@@ -84,6 +85,10 @@ label{
     width: 80%;
     height: 40px;
     margin-bottom: 25px;
+    width: 80%;
+    height: 40px;
+    margin-bottom: 25px;
+    margin-left: 50px;
     padding-top: 7px;
     padding-left: 10px;
     
@@ -91,4 +96,7 @@ label{
 
 input[type=radio]{
    margin-left: 75px;
+
 }
+
+
