@@ -56,3 +56,20 @@ nav.list ul li a:hover{
     margin-bottom: 15px;
     border: 5px solid #fff;
 }
+
+span {
+    background-color: #fff;
+    color: #000;
+    border-radius: 50%;
+}
+
+.show-detail{
+    display: block;
+    margin: 10px auto;
+    width: 40%;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
