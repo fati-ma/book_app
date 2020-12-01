@@ -6,14 +6,34 @@ Estimate of time needed to complete: 3 hours
 
 Start time: 2:15 pm
 
+Finish time: 4:30 pm
+
+Actual time needed to complete: 2 hours
+
 # lab-12
+
+Number and name of feature: All the features
+
+Estimate of time needed to complete: 3 hours
+
+Start time: 2:15 pm
+
 Finish time: 5:30 pm
 
 Actual time needed to complete: 4 hours
 
-Finish time: 4:30 pm
+# lab-13
 
-Actual time needed to complete: 2 hours
+Number and name of feature: All the features
+
+Estimate of time needed to complete: 2hours
+
+Start time: 1:30 pm
+
+Finish time: 2:30 pm
+
+Actual time needed to complete: 1 hours
+
 
 # ------------------------
 
