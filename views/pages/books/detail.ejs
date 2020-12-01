@@ -16,12 +16,22 @@
             <img src="<%= books.image_url %>" alt="">
             <h2><%= books.title %></h2>
             <h3><%= books.author %></h3>
-            <p><%= books.isbn %></p>
-            <p><%= books.description %></p>
-            <button id='updateBtn'>Update Book</button>
-            <%- include('edit') %>
-        </div>
+            <p class="isbn"><%= books.isbn %></p>
+            <p class="desc"><%= books.description %></p>
+            <button id="showUpdateForm">Update Details</button>
+            <button id="btnDel">Delete Book</button>
+            <div id="popupMessage">
+                <div id="message-content">
 
+                    <p>Are sure that you want to delete this book</p>
+                    <button id="btnNo">No</button>
+                    <form action="/books/<%= books.id %>?_method=delete" id="" method="post">
+                        <button>Yes</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <%- include('edit') %>
     </section>
     <%- include('../../layout/footer') %>
 

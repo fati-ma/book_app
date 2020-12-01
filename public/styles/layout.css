@@ -61,8 +61,7 @@ form {
     flex-direction: column;
 }
 
-input[type=text],
-button {
+input[type=text], button {
     width: 80%;
     margin: 5px 10%;
     height: 40px;
@@ -75,6 +74,7 @@ input[type=text]{
 button{
     background-color: #000;
     color: #fff;
+    border-radius: 10px;
 }
 
 label, textarea{
@@ -98,9 +98,42 @@ input[type=radio]{
   
 }
 
-textarea{
-    height: 70px;
+.desc {
+    padding: 2px 4px;
+    width: 70%;
+    background-color: rgb(248, 242, 242);
+    margin: 0 auto;
 }
+
+.isbn {
+    text-align: center;
+}
+
+#updateFrom,
+#popupMessage {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.7);
+}
+  
+  #formContent,
+  #message-content {
+    background-color: #b8b8b8;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 5px;
+}
+  
 
 
 
