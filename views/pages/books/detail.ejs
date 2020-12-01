@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Document</title>
     <link rel="stylesheet" href="../styles/base.css">
@@ -7,20 +8,25 @@
     <link rel="stylesheet" href="../styles/modules.css">
     <link rel="stylesheet" href="../styles/reset.css">
 </head>
+
 <body>
     <%- include('../../layout/header') %>
     <section>
-            <div class="searches">
-                <img src="<%= books.image_url %>" alt="">
-                <h2><%= books.title %></h2>
-                <h3><%= books.author %></h3>
-                <p><%= books.isbn %></p>
-                <p><%= books.description %></p>
-            </div>
+        <div class="searches">
+            <img src="<%= books.image_url %>" alt="">
+            <h2><%= books.title %></h2>
+            <h3><%= books.author %></h3>
+            <p><%= books.isbn %></p>
+            <p><%= books.description %></p>
+            <button id='updateBtn'>Update Book</button>
+            <%- include('edit') %>
+        </div>
+
     </section>
     <%- include('../../layout/footer') %>
 
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="../js/app.js"></script>
 </body>
+
 </html>

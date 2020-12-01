@@ -77,7 +77,7 @@ button{
     color: #fff;
 }
 
-label{
+label, textarea{
     background-color: #fff;
     text-align: left;
     position: relative;
@@ -95,7 +95,12 @@ label{
 
 input[type=radio]{
    margin-left: 75px;
-
+  
 }
+
+textarea{
+    height: 70px;
+}
+
 
 
